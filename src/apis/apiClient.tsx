@@ -4,7 +4,7 @@ import axios from 'axios';
  * កន្លែងកណ្តាលសម្រាប់ហៅ API ទៅកាន់ Laravel Backend
  */
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://posbackend-production-d7a3.up.railway.app/api';
 
 const apiClient = axios.create({
   baseURL: API_URL,
